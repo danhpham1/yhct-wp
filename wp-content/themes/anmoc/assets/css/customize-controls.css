@@ -1,0 +1,15 @@
+/* Repeater */
+.anmoc-rows { margin: 8px 0 10px; padding: 0; list-style: none; }
+.anmoc-row { background: #fff; border: 1px solid #dcdcde; border-radius: 3px; padding: 10px 12px 12px; margin: 0 0 8px; }
+.anmoc-row-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.anmoc-row label { display: block; margin: 8px 0 3px; font-size: 12px; color: #50575e; }
+.anmoc-row input, .anmoc-row textarea { width: 100%; }
+.anmoc-row-actions { display: inline-flex; gap: 10px; align-items: center; }
+.anmoc-row-actions .button-link { font-size: 14px; text-decoration: none; }
+.anmoc-row-actions .button-link[disabled] { opacity: .3; cursor: default; }
+
+/* Layout */
+.anmoc-layout { margin: 8px 0 0; padding: 0; list-style: none; }
+.anmoc-layout-item { display: flex; justify-content: space-between; align-items: center; background: #fff; border: 1px solid #dcdcde; border-radius: 3px; padding: 8px 10px; margin: 0 0 6px; }
+.anmoc-layout-item label { display: flex; gap: 8px; align-items: center; flex: 1; cursor: pointer; }
+.anmoc-layout-item.is-off span { color: #8c8f94; text-decoration: line-through; }

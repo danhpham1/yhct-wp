@@ -1,0 +1,21 @@
+# Chỉ theo dõi theme An Mộc + tài liệu. WordPress core, plugin, uploads cài lại trên host.
+/*
+!/.gitignore
+!/README.md
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/anmoc/
+!/tai-lieu/
+
+# Bí mật / dữ liệu thật — KHÔNG đưa lên (repo public)
+/tai-lieu/deploy/yhct-database.sql
+/tai-lieu/deploy/wp-config-azdigi.php
+/tai-lieu/deploy/doi-url.php
+
+# File build (tạo lại từ theme)
+/tai-lieu/deploy/*.zip
+
+.DS_Store
+*.log
